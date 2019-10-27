@@ -31,6 +31,11 @@ public class ElasticSearchConsumer {
 
     static Logger logger = LoggerFactory.getLogger(ElasticSearchConsumer.class);
 
+
+    public static String getEnv(String name){
+        return System.getenv(name);
+    }
+
     public static void main(String[] args) throws IOException {
 
         RestHighLevelClient client = createClient();
@@ -107,11 +112,11 @@ public class ElasticSearchConsumer {
     }
 
     private static RestHighLevelClient createClient() {
-        String hostname = "kafka-tutorial-167269388.ap-southeast-2.bonsaisearch.net";
+        String hostname = getEnv("ELASTIC_SEARCH_HOSTNAME"); //INVALIDATEd THE Old
 
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
-        String username = "8i8qg7rvp9";
-        String password = "xajlbdzelb";
+        String username = getEnv("ELASTIC_SEARCH_USERNAME");//INVALIDATEd THE Old
+        String password = getEnv("ELASTIC_SEARCH_PASSWORD");//INVALIDATEd THE Old
         credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
 
 

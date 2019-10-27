@@ -28,11 +28,14 @@ import java.util.concurrent.TimeUnit;
 public class TwitterProducer {
 
     // These secrets should be read from a config file
-    final String consumerKey = "3ENWFDHtVhYjrhuhgbdLhyX53";
-    final String consumerSecret = "YG5aTOIInwpEhIfAsEgC4EjSdfBLpenfULLGRCxzE2I4vIH9zI";
-    final String token = "83362197-yQoAA7FTzD0VSYmiFvhxXa94cQ3Z1H2h9PEDPzYJl";
-    final String secret = "VtLvWhiA8juKi7dsKcrloEMN7Lht7EhmzhbByoTA8oGmC";
+    final String consumerKey = getEnv("TWITTER_CONSUMER_KEY");//INVALIDATEd THE Old
+    final String consumerSecret = getEnv("TWITTER_CONSUMER_SECRET");//INVALIDATEd THE Old
+    final String token = getEnv("TWITTER_TOKEN");//INVALIDATEd THE Old
+    final String secret = getEnv("TWITTER_TOKEN_SECRET");//INVALIDATEd THE Old
 
+    public static String getEnv(String name){
+        return System.getenv(name);
+    }
 
     List<String> terms = Lists.newArrayList("kafka", "usa", "sport", "java");
 
