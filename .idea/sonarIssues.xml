@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/encryptedCredentials.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kafka-basics/pom.xml">
           <value>
             <set />
@@ -59,6 +64,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/eduardo/twitter/TwitterProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kafka-streams-filter-tweets/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kafka-streams-filter-tweets/src/main/java/com/eduardo/kafka/StreamsFilterTweets.java">
           <value>
             <set />
           </value>
