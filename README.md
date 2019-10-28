@@ -1,4 +1,4 @@
-# kafkatraining
+# kafka training
 
 Playing arround with Kafka and it's main concepts
 
