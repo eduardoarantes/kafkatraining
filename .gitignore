@@ -1,1 +1,2 @@
 setEnv.sh
+kafka-connect/connectors/twitter.properties

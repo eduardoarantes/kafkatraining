@@ -23,6 +23,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/kafka-connect/connect-standalone.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kafka-connect/connectors/twitter.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kafka-connect/run_twitter.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kafka-connect/twitter.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kafka-consumer-elasticsearch/pom.xml">
           <value>
             <set />
@@ -44,6 +64,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/setEnv.sh">
           <value>
             <set />
           </value>
